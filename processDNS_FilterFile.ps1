@@ -41,6 +41,14 @@
 #           2)  <input file name>-previous.csv This file is the configuration 
 #               that was generated from the previous run and is compared to the current run
 #==============================================================================
+#       Change History
+#       2022/04/19 : 
+#       1) Added feature to allow headers in any order; however, "Function","Description", 
+#       and "IP"  are required headers. The header names are case insensitive.
+#       2) fixed bug in compare-object added -SyncWindow 0 to keep records in order
+#       3) Fixed bug in Deatch_Qual
+# -----------------------------------------------------------------------------
+#
 param ($filterfile)
 
 $configuration = @{}
@@ -59,20 +67,22 @@ function buildNewFilterList
 {
     param ($filterFile,$configuration)
     $newFilterList =@()
-
+    $function=(($filterFile[0].split(",")).ToUpper()).indexof("FUNCTION")
+    $description=(($filterFile[0].split(",")).ToUpper()).indexof("DESCRIPTION")
+    $ip=(($filterFile[0].split(",")).ToUpper()).indexof("IP")
     foreach ($rec in $filterFile)
         {
             $cells = $rec.split(",")
-            switch ($cells[1])
+            switch ($cells[$function])
                 {
                     "Attach_Qual"{
-                        $url=$cells[3].Trim()
+                        $url=$cells[$description].Trim()
                         try {
                             $dns= [System.Net.Dns]::GetHostEntry($url).AddressList.IPAddressToString
                             $IPAs = $dns | Sort-Object
                             foreach ($Arec in $IPAs)
                             {
-                                $cells[5]=$Arec
+                                $cells[$ip]=$Arec
                                 $newRec=""
                                 foreach ($c in $cells)
                                     {
@@ -96,12 +106,12 @@ function buildNewFilterList
 #==============================================================================
 if ($null -eq $filterfile)
 {
-    Write-Host "No filter file supplied, exiting..."
-    $filterfile =".\test.csv"
+    Write-Host "No filter file supplied"
+    $filterfile =".\DNS_Filter_test.csv"
 }
 
 if (-not(Test-Path $filterfile)){
-    Write-Host "config file not found"
+    Write-Host "config file not found, exiting..."
     exit 
 }
 
@@ -117,8 +127,8 @@ if (Test-Path $previousConfigFileName){
         
 $fl1 = buildNewFilterList -filterFile $configFile -configuration $configuration
 $fl1 | Out-File -FilePath $previousConfigFileName -Encoding ASCII 
-$tmpConfig=Compare-Object  -ReferenceObject $previousConfig  -DifferenceObject $fl1 -IncludeEqual
-
+$tmpConfig=Compare-Object  -ReferenceObject $previousConfig  -DifferenceObject $fl1 -IncludeEqual -SyncWindow 0
+$tmpConfig | Out-File -FilePath ($filterfile.substring(0,$filterfile.indexof(".csv"))+"-compare.csv") -Encoding ASCII
 
 if (Test-Path $filterFile"-newConfig.csv" ){
     Remove-Item $filterFile"-newConfig.csv"
@@ -131,12 +141,10 @@ foreach ($Iobj in $tmpConfig.GetEnumerator())
     $rec=$Iobj.InputObject
     $diff=$Iobj.SideIndicator
     $recNo +=1
-    if ($recNo -gt 3){
-        if ($diff.contains("<=")) {
-            $newconfig += $rec.replace("Attach_Qual","Detach_Qual")
-        } else {
-            $newconfig += $rec
-        }
-        $rec | Out-File -FilePath $filterFile"-newConfig.csv" -Encoding ASCII -Append
+    if ($diff.contains("<=")) {
+        $newconfig += $rec.replace("Attach_Qual","Detach_Qual")
+    } else {
+        $newconfig += $rec
     }
 }
+$newconfig | Out-File -FilePath $filterFile"-newConfig.csv" -Encoding ASCII

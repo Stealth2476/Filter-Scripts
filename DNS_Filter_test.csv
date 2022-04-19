@@ -1,14 +1,11 @@
-
-InputObject                                                                                              
------------                                                                                              
 Object,Function,Name,Description,Type,IP,Protocol,LocalPort,RemotePort,ExLocal,ExRemote,Exclude,Qualif...
 FilterList,Use,FL AD Server IP,List of AD Server IPs,,,,,,,,,,                                           
-FilterList,Attach_Qual,,www.cnn.com,,,,,,,,,,,                                          
+FilterList,Attach_Qual,,outlook.office.com,,,6,443,,,,,,,                                          
 FilterList,Use,FL DNS Server IP,List of DNS Server IPs,,,,,,,,,,                                         
-FilterList,Attach_Qual,,www.sundayriver.com,,,,,,,,,,,                                   
-FilterList,Attach_Qual,,www.unisys.com,,,,,,,,,,,                                      
+FilterList,Attach_Qual,,smtp.office365.com,,,,,,,,,,,                                   
+FilterList,Attach_Qual,,r1.res.office365.com,,,,,,,,,,,                                      
 FilterList,Attach_Qual,,login.microsoftonline.com,,,,,,,,,,,                           
 FilterList,Use,FL Pilot Server IPs,Pilot Server IPs,,,,,,,,,,                                            
-FilterList,Attach_Qual,,login.microsoftonline.com,,,,,,,,,,,                          
+FilterList,Attach_Qual,,r4.res.office365.com,,,,,,,,,,,                          
 FilterList,Attach_Qual,,security.microsoft.com ,,,,,,,,,,,                            
-FilterList,Attach_Qual,,www.cnbc.com,,,,,,,,,,,                                       
+FilterList,Attach_Qual,,r3.res.office365.com,,,,,,,,,,,                                       
