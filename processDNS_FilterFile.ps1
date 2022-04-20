@@ -48,11 +48,13 @@
 #       2) fixed bug in compare-object added -SyncWindow 0 to keep records in order
 #       3) Fixed bug in Deatch_Qual
 # -----------------------------------------------------------------------------
+#       2022/04/20:
+#       1) add version to output 
 #
 param ($filterfile)
 
 $configuration = @{}
-
+$version ="Version=202204201107EDST"
 function read-FilterFile{
     param ($filterFileName)
     get-content $filterFileName
@@ -104,6 +106,7 @@ function buildNewFilterList
 }
 
 #==============================================================================
+Write-Host $version
 if ($null -eq $filterfile)
 {
     Write-Host "No filter file supplied"
