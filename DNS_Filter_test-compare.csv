@@ -1,0 +1,54 @@
+
+InputObject                                                                                                       SideIndicator
+-----------                                                                                                       -------------
+Object,Function,Name,Description,Type,IP,Protocol,LocalPort,RemotePort,ExLocal,ExRemote,Exclude,Qualif...         ==           
+FilterList,Use,FL AD Server IP,List of AD Server IPs,,,,,,,,,,                                                    ==           
+FilterList,Attach_Qual,,outlook.office.com,,40.97.188.226,6,443,,,,,,,                                          , =>           
+FilterList,Attach_Qual,,outlook.office.com,,52.96.181.34,6,443,,,,,,,                                          ,  <=           
+FilterList,Attach_Qual,,outlook.office.com,,52.96.35.178,6,443,,,,,,,                                          ,  =>           
+FilterList,Attach_Qual,,outlook.office.com,,52.96.32.178,6,443,,,,,,,                                          ,  <=           
+FilterList,Attach_Qual,,outlook.office.com,,52.96.88.50,6,443,,,,,,,                                          ,   =>           
+FilterList,Attach_Qual,,outlook.office.com,,52.96.70.242,6,443,,,,,,,                                          ,  <=           
+FilterList,Attach_Qual,,outlook.office.com,,52.96.90.34,6,443,,,,,,,                                          ,   =>           
+FilterList,Attach_Qual,,outlook.office.com,,52.96.87.194,6,443,,,,,,,                                          ,  <=           
+FilterList,Use,FL DNS Server IP,List of DNS Server IPs,,,,,,,,,,                                                  ==           
+FilterList,Attach_Qual,,smtp.office365.com,,52.96.109.194,,,,,,,,,                                   ,            =>           
+FilterList,Attach_Qual,,smtp.office365.com,,52.96.111.98,,,,,,,,,                                   ,             <=           
+FilterList,Attach_Qual,,smtp.office365.com,,52.96.109.242,,,,,,,,,                                   ,            =>           
+FilterList,Attach_Qual,,smtp.office365.com,,52.96.62.226,,,,,,,,,                                   ,             <=           
+FilterList,Attach_Qual,,smtp.office365.com,,52.96.19.82,,,,,,,,,                                   ,              =>           
+FilterList,Attach_Qual,,smtp.office365.com,,52.96.88.114,,,,,,,,,                                   ,             <=           
+FilterList,Attach_Qual,,smtp.office365.com,,52.96.35.178,,,,,,,,,                                   ,             =>           
+FilterList,Attach_Qual,,smtp.office365.com,,52.96.88.34,,,,,,,,,                                   ,              <=           
+FilterList,Attach_Qual,,smtp.office365.com,,52.96.70.242,,,,,,,,,                                   ,             =>           
+FilterList,Attach_Qual,,r1.res.office365.com,,23.52.164.137,,,,,,,,,                                      ,       <=           
+FilterList,Attach_Qual,,smtp.office365.com,,52.96.88.2,,,,,,,,,                                   ,               =>           
+FilterList,Attach_Qual,,login.microsoftonline.com,,20.190.152.19,,,,,,,,,                           ,             <=           
+FilterList,Attach_Qual,,smtp.office365.com,,52.96.88.50,,,,,,,,,                                   ,              =>           
+FilterList,Attach_Qual,,login.microsoftonline.com,,20.190.152.20,,,,,,,,,                           ,             <=           
+FilterList,Attach_Qual,,smtp.office365.com,,52.96.9.178,,,,,,,,,                                   ,              =>           
+FilterList,Attach_Qual,,login.microsoftonline.com,,20.190.152.21,,,,,,,,,                           ,             <=           
+FilterList,Attach_Qual,,r1.res.office365.com,,23.77.240.78,,,,,,,,,                                      ,        =>           
+FilterList,Attach_Qual,,login.microsoftonline.com,,40.126.24.147,,,,,,,,,                           ,             <=           
+FilterList,Attach_Qual,,login.microsoftonline.com,,20.190.152.20,,,,,,,,,                           ,             =>           
+FilterList,Attach_Qual,,login.microsoftonline.com,,40.126.24.149,,,,,,,,,                           ,             <=           
+FilterList,Attach_Qual,,login.microsoftonline.com,,20.190.152.22,,,,,,,,,                           ,             =>           
+FilterList,Attach_Qual,,login.microsoftonline.com,,40.126.24.81,,,,,,,,,                           ,              <=           
+FilterList,Attach_Qual,,login.microsoftonline.com,,40.126.24.146,,,,,,,,,                           ,             =>           
+FilterList,Attach_Qual,,login.microsoftonline.com,,40.126.24.83,,,,,,,,,                           ,              <=           
+FilterList,Attach_Qual,,login.microsoftonline.com,,40.126.24.148,,,,,,,,,                           ,             =>           
+FilterList,Attach_Qual,,login.microsoftonline.com,,40.126.24.84,,,,,,,,,                           ,              <=           
+FilterList,Attach_Qual,,login.microsoftonline.com,,40.126.24.149,,,,,,,,,                           ,             =>           
+FilterList,Use,FL Pilot Server IPs,Pilot Server IPs,,,,,,,,,,                                                     <=           
+FilterList,Attach_Qual,,login.microsoftonline.com,,40.126.24.81,,,,,,,,,                           ,              =>           
+FilterList,Attach_Qual,,r4.res.office365.com,,23.77.240.78,,,,,,,,,                          ,                    <=           
+FilterList,Attach_Qual,,login.microsoftonline.com,,40.126.24.82,,,,,,,,,                           ,              =>           
+FilterList,Attach_Qual,,security.microsoft.com ,,52.109.12.122,,,,,,,,,                            ,              <=           
+FilterList,Attach_Qual,,login.microsoftonline.com,,40.126.24.84,,,,,,,,,                           ,              =>           
+FilterList,Attach_Qual,,r3.res.office365.com,,23.52.164.137,,,,,,,,,                                       ,      <=           
+FilterList,Use,FL Pilot Server IPs,Pilot Server IPs,,,,,,,,,,                                                     =>           
+FilterList,Attach_Qual,,r4.res.office365.com,,69.192.108.94,,,,,,,,,                          ,                   =>           
+FilterList,Attach_Qual,,security.microsoft.com ,,52.109.12.122,,,,,,,,,                            ,              =>           
+FilterList,Attach_Qual,,r3.res.office365.com,,23.77.240.78,,,,,,,,,                                       ,       =>           
+
+

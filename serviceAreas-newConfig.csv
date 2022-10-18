@@ -1,0 +1,213 @@
+Object,Function,Name,Description,Type,IP,Protocol,LocalPort,RemotePort
+FilterList,,outlook.office.com outlook.office365.com,Exchange Online
+FilterList,use,outlook.office.com outlook.office365.com,Exchange Online
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,13.107.6.152/31,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,13.107.6.152/31,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,13.107.18.10/31,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,13.107.18.10/31,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,13.107.128.0/22,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,13.107.128.0/22,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,23.103.160.0/20,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,23.103.160.0/20,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,40.96.0.0/13,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,40.96.0.0/13,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,40.104.0.0/15,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,40.104.0.0/15,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,52.96.0.0/14,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,52.96.0.0/14,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,131.253.33.215/32,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,131.253.33.215/32,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,132.245.0.0/16,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,132.245.0.0/16,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,150.171.32.0/22,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,150.171.32.0/22,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,204.79.197.215/32,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,204.79.197.215/32,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2603:1006::/40,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2603:1006::/40,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2603:1016::/36,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2603:1016::/36,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2603:1026::/36,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2603:1026::/36,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2603:1036::/36,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2603:1036::/36,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2603:1046::/36,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2603:1046::/36,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2603:1056::/36,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2603:1056::/36,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:4::152/128,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:4::152/128,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:4::153/128,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:4::153/128,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:c::10/128,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:c::10/128,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:c::11/128,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:c::11/128,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:d::10/128,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:d::10/128,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:d::11/128,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:d::11/128,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:8f0::/46,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:8f0::/46,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:900::/46,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:900::/46,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:a92::152/128,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:a92::152/128,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:a92::153/128,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2620:1ec:a92::153/128,6,*,443
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2a01:111:f400::/48,6,*,80
+FilterList,Attach_Qual,,outlook.office.com outlook.office365.com,,2a01:111:f400::/48,6,*,443
+FilterList,,smtp.office365.com,Exchange Online
+FilterList,use,smtp.office365.com,Exchange Online
+FilterList,Attach_Qual,,smtp.office365.com,,13.107.6.152/31,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,13.107.18.10/31,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,13.107.128.0/22,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,23.103.160.0/20,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,40.96.0.0/13,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,40.104.0.0/15,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,52.96.0.0/14,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,131.253.33.215/32,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,132.245.0.0/16,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,150.171.32.0/22,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,204.79.197.215/32,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2603:1006::/40,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2603:1016::/36,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2603:1026::/36,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2603:1036::/36,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2603:1046::/36,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2603:1056::/36,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2620:1ec:4::152/128,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2620:1ec:4::153/128,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2620:1ec:c::10/128,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2620:1ec:c::11/128,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2620:1ec:d::10/128,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2620:1ec:d::11/128,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2620:1ec:8f0::/46,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2620:1ec:900::/46,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2620:1ec:a92::152/128,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2620:1ec:a92::153/128,6,*,587
+FilterList,Attach_Qual,,smtp.office365.com,,2a01:111:f400::/48,6,*,587
+FilterList,,*.outlook.office.com outlook.office365.com,Exchange Online
+FilterList,use,*.outlook.office.com outlook.office365.com,Exchange Online
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,13.107.6.152/31,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,13.107.6.152/31,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,13.107.18.10/31,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,13.107.18.10/31,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,13.107.128.0/22,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,13.107.128.0/22,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,23.103.160.0/20,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,23.103.160.0/20,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,40.96.0.0/13,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,40.96.0.0/13,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,40.104.0.0/15,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,40.104.0.0/15,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,52.96.0.0/14,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,52.96.0.0/14,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,131.253.33.215/32,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,131.253.33.215/32,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,132.245.0.0/16,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,132.245.0.0/16,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,150.171.32.0/22,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,150.171.32.0/22,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,204.79.197.215/32,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,204.79.197.215/32,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1006::/40,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1006::/40,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1016::/36,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1016::/36,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1026::/36,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1026::/36,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1036::/36,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1036::/36,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1046::/36,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1046::/36,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1056::/36,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1056::/36,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:4::152/128,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:4::152/128,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:4::153/128,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:4::153/128,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:c::10/128,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:c::10/128,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:c::11/128,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:c::11/128,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:d::10/128,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:d::10/128,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:d::11/128,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:d::11/128,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:8f0::/46,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:8f0::/46,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:900::/46,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:900::/46,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:a92::152/128,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:a92::152/128,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:a92::153/128,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:a92::153/128,6,*,993
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2a01:111:f400::/48,6,*,143
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2a01:111:f400::/48,6,*,993
+FilterList,,*.outlook.office.com outlook.office365.com,Exchange Online
+FilterList,use,*.outlook.office.com outlook.office365.com,Exchange Online
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,13.107.6.152/31,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,13.107.18.10/31,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,13.107.128.0/22,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,23.103.160.0/20,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,40.96.0.0/13,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,40.104.0.0/15,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,52.96.0.0/14,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,131.253.33.215/32,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,132.245.0.0/16,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,150.171.32.0/22,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,204.79.197.215/32,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1006::/40,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1016::/36,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1026::/36,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1036::/36,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1046::/36,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2603:1056::/36,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:4::152/128,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:4::153/128,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:c::10/128,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:c::11/128,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:d::10/128,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:d::11/128,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:8f0::/46,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:900::/46,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:a92::152/128,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2620:1ec:a92::153/128,6,*,995
+FilterList,Attach_Qual,,*.outlook.office.com outlook.office365.com,,2a01:111:f400::/48,6,*,995
+FilterList,,*.protection.outlook.com,Exchange Online
+FilterList,use,*.protection.outlook.com,Exchange Online
+FilterList,Attach_Qual,,*.protection.outlook.com,,40.92.0.0/15,6,*,443
+FilterList,Attach_Qual,,*.protection.outlook.com,,40.107.0.0/16,6,*,443
+FilterList,Attach_Qual,,*.protection.outlook.com,,52.100.0.0/14,6,*,443
+FilterList,Attach_Qual,,*.protection.outlook.com,,52.238.78.88/32,6,*,443
+FilterList,Attach_Qual,,*.protection.outlook.com,,104.47.0.0/17,6,*,443
+FilterList,Attach_Qual,,*.protection.outlook.com,,2a01:111:f403::/48,6,*,443
+FilterList,,*.mail.protection.outlook.com,Exchange Online
+FilterList,use,*.mail.protection.outlook.com,Exchange Online
+FilterList,Attach_Qual,,*.mail.protection.outlook.com,,40.92.0.0/15,6,*,25
+FilterList,Attach_Qual,,*.mail.protection.outlook.com,,40.107.0.0/16,6,*,25
+FilterList,Attach_Qual,,*.mail.protection.outlook.com,,52.100.0.0/14,6,*,25
+FilterList,Attach_Qual,,*.mail.protection.outlook.com,,104.47.0.0/17,6,*,25
+FilterList,Attach_Qual,,*.mail.protection.outlook.com,,2a01:111:f400::/48,6,*,25
+FilterList,Attach_Qual,,*.mail.protection.outlook.com,,2a01:111:f403::/48,6,*,25
+FilterList,,*.sharepoint.com,SharePoint Online and OneDrive for Business
+FilterList,use,*.sharepoint.com,SharePoint Online and OneDrive for Business
+FilterList,Attach_Qual,,*.sharepoint.com,,13.107.136.0/22,6,*,80
+FilterList,Attach_Qual,,*.sharepoint.com,,13.107.136.0/22,6,*,443
+FilterList,Attach_Qual,,*.sharepoint.com,,40.108.128.0/17,6,*,80
+FilterList,Attach_Qual,,*.sharepoint.com,,40.108.128.0/17,6,*,443
+FilterList,Attach_Qual,,*.sharepoint.com,,52.104.0.0/14,6,*,80
+FilterList,Attach_Qual,,*.sharepoint.com,,52.104.0.0/14,6,*,443
+FilterList,Attach_Qual,,*.sharepoint.com,,104.146.128.0/17,6,*,80
+FilterList,Attach_Qual,,*.sharepoint.com,,104.146.128.0/17,6,*,443
+FilterList,Attach_Qual,,*.sharepoint.com,,150.171.40.0/22,6,*,80
+FilterList,Attach_Qual,,*.sharepoint.com,,150.171.40.0/22,6,*,443
+FilterList,Attach_Qual,,*.sharepoint.com,,2603:1061:1300::/40,6,*,80
+FilterList,Attach_Qual,,*.sharepoint.com,,2603:1061:1300::/40,6,*,443
+FilterList,Attach_Qual,,*.sharepoint.com,,2620:1ec:8f8::/46,6,*,80
+FilterList,Attach_Qual,,*.sharepoint.com,,2620:1ec:8f8::/46,6,*,443
+FilterList,Attach_Qual,,*.sharepoint.com,,2620:1ec:908::/46,6,*,80
+FilterList,Attach_Qual,,*.sharepoint.com,,2620:1ec:908::/46,6,*,443
+FilterList,Attach_Qual,,*.sharepoint.com,,2a01:111:f402::/48,6,*,80
+FilterList,Attach_Qual,,*.sharepoint.com,,2a01:111:f402::/48,6,*,443
